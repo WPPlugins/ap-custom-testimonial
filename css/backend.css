@@ -1,0 +1,470 @@
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.apct-head {
+    background: rgb(35, 40, 45);
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 5px;
+}
+
+.apct-setting-header span{
+    float: right;
+    color: whitesmoke;
+    background: grey;
+    padding: 0px 4px 0px 3px;
+}
+
+.apct-message {
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin-top: 10px;
+    padding: 1px 12px;
+    border-color: #7ad03a;
+}
+p.apct-info {
+    font-size: 16px;
+    font-weight: 600;
+}
+.apct-actions {
+    margin-top: 10px;
+}
+/*----------------- Scroll to top css added ----------------- */
+.apct-scrollToTop {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.apct-top-button {
+    background: rgb(0, 116, 162);
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    margin-top: 10px;
+    float: right;
+    width: 80px;
+}
+.apct-header-social {
+    margin-top: -70px;
+}
+.apct-header-social p {
+    color: #F4F4F5;
+}
+.apct-setting-header span {
+    float: right;
+    color: whitesmoke;
+    background: grey;
+    padding: 0px 4px 0px 3px;
+    margin-top: -55px;
+}
+.apct-setting-header .header-div p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;    
+}
+
+.apct-setting-header h1 {
+    text-align: center;
+    color: #fff;
+}
+.apct-title {
+    background: #aaa;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.apct-option-heading-text{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.apct-testimonial-add {
+    margin: 11px !important;
+    margin-left: auto !important;
+}
+/********* About us css ******/
+.about-desc-wrap {
+    float: left;
+    width: 65%;
+}
+.about-img-wrap {
+    float: right;
+    width: 35%;
+}
+.about-title {
+    background: none;
+    border: medium none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.about-content {
+    color: #141414;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom:20px;
+}
+.about-desc-wrap {
+    padding: 0;
+    width: 100%;
+}
+.about-title > span {
+    color: #7b7b7b;
+    font-size: 18px;
+}
+.social-iframe {
+    padding: 20px;
+}
+.social-iframe iframe {
+    width: 100% !important;
+}
+.apct-social-icon li {
+    display: inline-block;
+    margin: 2px;
+}
+.about-content > ul {
+    list-style: outside none disc;
+    margin: 0 0 20px;
+    padding-left: 30px;
+}
+
+input.apct-top-button {
+    background: #222;
+}
+#apct-generated-shortcode {
+    width: 100%;
+    height: 85px;
+    margin: 8px 12px 0px 0px;
+    background: white;
+}
+.apct-shortcode-button {
+    border: 1px solid #0074A2;
+    width: auto;
+    cursor: pointer;
+}
+.apct-font-demo-wrap {
+    border: 1px solid #0074A2;
+    width: 100%;    /*75%;*/
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 9px 0 2px;
+}
+#boxes {
+    background-color: white;
+    content: '';
+    box-shadow: 0 0 2px #bbb;
+    left: 30%;
+    position: fixed;
+    top: 10%;
+    text-align: center;
+    width: 50%;
+    z-index: 1;
+    word-wrap: break-word;
+}
+#boxes .apct-popup-close{
+	position: absolute;
+    top: -19px;
+    right: -19px;/* padding: 10px; */
+    width: 30px;
+    border-radius: 50%;
+    background:rgb(35, 40, 45);
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.4;
+    border:2px solid #fff;
+    cursor:pointer;
+}
+.apct-overlay{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    opacity:0.7;
+    top: 0;
+	bottom:0;
+	right:0;
+	left:0;
+	display:block;
+    z-index:1;
+}
+.apct-testim-content-none {
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+.apct-view-wrap .view-ajax-loader {
+    position: fixed;
+    top: 37%;
+    left: 50%;
+    background: url("../images/ajax-loader-entry.gif") no-repeat center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.apct-tab-contents label.description {
+    font-style: italic;
+    font-size: 13px;
+}
+/*.................
+edit current testimonial start
+...................*/
+.apct-testimonial-input-field{
+	margin-top:7px;
+}
+.apct-testimonial-input-field input{
+	margin-top:5px;
+	vertical-align:top;
+}
+.wp-core-ui .button-secondary{
+	vertical-align:bottom;
+}
+.apct-testimonial-input-area{
+	padding-top:7px;
+}
+/*.................
+edit current testimonial end
+...................*/
+.widget .widget-inside label{
+	display:block;
+}
+/*..................
+testimonial manager start
+....................*/
+.boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details span,
+.boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details .apct-view-detail-data {
+    display: inline-block;
+}
+.boxes .apct-view-testimonia-wrap {
+    padding: 15px;
+    box-sizing: border-box;
+}
+.boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details span {
+    width: 20%;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-weight:700;
+}
+.boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details .apct-view-detail-data {
+    width: 79%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px 10px 0 10px;
+    border-left: 1px solid #ccc;
+}
+.apct-view-testimonial-details {
+    line-height: 2;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+.apct-view-testimonial-details:nth-child(1) {
+    border-top: 1px solid #ccc;
+}
+/*..................
+testimonial manager end
+....................*/
+/*...........................
+AP Custom Testimonial options start
+.............................*/
+.wrap h2.nav-tab-wrapper {
+    margin: 15px 0;
+}
+.apct-backend-wrapper .apct-option-setting-wrapper .apct-tab-contents h3,
+.apct-backend-wrapper .apct-option-setting-wrapper .apct-general-setting-section h4 {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    line-height: 2;
+}
+.apct-backend-wrapper .afct-option-setting-wrapper .apct-general-setting-section h4 {
+    pading-top: 3px;
+}
+.apct-backend-wrapper .apct-form-wraper .apct-setting-form .apct-tab-contents .afct-option-setting-wrapper .apct-general-setting-section.testimonial-length-section label {
+    display: block;
+}
+.apct-backend-wrapper .apct-form-wraper .apct-setting-form .apct-tab-contents .afct-option-setting-wrapper .apct-general-setting-section.testimonial-length-section label.description {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.apct-option-setting-wrapper .apct-image-section,
+.apct-option-setting-wrapper .wp-picker-container,
+.apct-option-setting-wrapper .apct_restrict,
+.apct-option-setting-wrapper .testimnial-font,
+.apct-option-setting-wrapper #testim_font_size {
+    margin-top: 7px;
+}
+.image-setting-section h3,
+.color-setting-section h3,
+.typography-setting-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+/*...........................
+AP Custom Testimonial options end
+.............................*/
+/*......................
+Shortcode Generator Page start
+........................*/
+#tab-apct-shorcode label {
+    display: block;
+    margin: 7px 0;
+}
+.apct-shortcode-button {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+.apct-backend-wrapper .text-area-genertating-shortcode {
+    margin-top: 7px;
+}
+.apct-testim-shortcode-setting{
+	position:relative;
+}
+.apct-backend-wrapper .shorcode-generated{
+	padding:10px 0 0;
+}
+/*......................
+Shortcode Generator Page end
+........................*/
+/*............
+media queries start
+..............*/
+
+@media screen and (max-width: 1200px) {
+    .boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details .apct-view-detail-data {
+        width: 67%;
+    }
+    .boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details span {
+        width: 28%;
+    }
+    .apct-view-testimonial-details {
+        line-height: 1.5;
+    }
+    #poststuff #post-body.columns-2{
+	   	margin-right:100px;
+	}
+}
+@media screen and (max-width: 900px) {
+    .boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details .apct-view-detail-data {
+        width: 100%;
+        text-align: center;
+        border-left: 0;
+    }
+    .boxes .apct-view-testimonia-wrap .apct-view-testim-details-container .apct-view-testimonial-details span {
+        width: 100%;
+        text-align: center;
+    }
+    #boxes {
+        width: 60%;
+        left: 25%;
+    }
+    .boxes .apct-view-testimonia-wrap {
+	    overflow-y: scroll;
+	    max-height: 450px;
+	}
+}
+@media screen and (max-width: 782px) {
+    .apct-tab-contents .widefat tr {
+        display: block;
+    }
+    .apct-tab-contents .widefat tr td {
+        display: block;
+        width: 100% !important;
+    }
+    .apct-backend-wrapper .apct-form-wraper .apct-setting-form .apct-tab-contents .apct-option-setting-wrapper .apct-general-setting-section.testimonial-length-section label:not(.description) {
+        margin-bottom: 0;
+        margin: 10px 0;
+    }
+    .apct-testimonial-manager-wrapper thead,
+    .apct-testimonial-manager-wrapper tfoot {
+        display: none;
+    }
+    #boxes {
+        width: 65%;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 600px) {
+    h1 .nav-tab,
+    h2 .nav-tab,
+    h3 .nav-tab {
+        margin-right: 1px !important;
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .apct-template-demo{
+    	position:relative;
+    	top:10px;
+    	right:auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 .nav-tab,
+    h2 .nav-tab,
+    h3 .nav-tab {
+        width: 100%;
+    }
+    .nav-tab-active,
+    .nav-tab-active:focus,
+    .nav-tab-active:focus:active,
+    .nav-tab-active:hover {
+        border-bottom: 1px solid #ccc;
+    }
+}
+/*............
+media queries end
+..............*/
+
+.apct-tab-contents h3 {
+    background: #aaa;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.apct-template-demo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.apct-template-demo{
+    box-shadow: 0 0 2px;
+    padding: 5px;
+    margin: 6px 0;
+    display: table;
+}
+.apct-widget-textarea{
+    width:100%;
+    height:200px;
+}
+.apct-right-div-wrapper img {
+    max-width: 100%;
+}
+.apct-view-testim-details-container{
+    height:444px;
+    overflow-y: scroll;
+}
+.apct-testimonial-input-area .fa-calendar {
+    color: #0085ba;
+    font-size: 24px;
+    margin: 6px;
+}
